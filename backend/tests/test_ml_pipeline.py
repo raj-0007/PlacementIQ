@@ -76,3 +76,4 @@ def test_pipeline_inference():
 
         assert pred in [0, 1]
         assert 0.0 <= prob <= 1.0
+

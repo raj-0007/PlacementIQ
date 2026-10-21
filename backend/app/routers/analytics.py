@@ -28,3 +28,4 @@ def get_sample_records(limit: int = Query(30, ge=5, le=100)):
     Returns raw sample records from the dataset for tabular data inspection.
     """
     return analytics_service.get_sample_records(limit=limit)
+

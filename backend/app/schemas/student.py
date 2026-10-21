@@ -34,3 +34,4 @@ class WhatIfSimulationRequest(BaseModel):
     simulated_cgpa: Optional[float] = Field(None, ge=4.0, le=10.0)
     simulated_internships: Optional[int] = Field(None, ge=0, le=10)
     simulated_backlogs: Optional[int] = Field(None, ge=0, le=1)
+

@@ -2,7 +2,15 @@
 PlacementIQ - Main FastAPI Application
 """
 
+import sys
+from pathlib import Path
 from contextlib import asynccontextmanager
+
+# Ensure backend root is on sys.path regardless of execution working directory
+BACKEND_DIR = Path(__file__).resolve().parent.parent
+if str(BACKEND_DIR) not in sys.path:
+    sys.path.insert(0, str(BACKEND_DIR))
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import CORS_ORIGINS

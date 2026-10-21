@@ -20,3 +20,4 @@ def get_four_models_comparison():
     if not data:
         raise HTTPException(status_code=404, detail="Model benchmark metrics not found.")
     return data
+

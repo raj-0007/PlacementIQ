@@ -34,3 +34,4 @@ class SimulationResponse(BaseModel):
     simulated_status: str
     impact_summary: str
     selected_model: str
+

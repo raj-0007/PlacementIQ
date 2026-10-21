@@ -32,3 +32,4 @@ def simulate_what_if_scenario(request: WhatIfSimulationRequest):
         return ml_service.simulate_what_if(request)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Simulation error: {str(e)}")
+

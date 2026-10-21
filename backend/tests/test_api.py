@@ -120,3 +120,4 @@ def test_what_if_simulation():
     assert "simulated_probability" in data
     assert "probability_delta" in data
     assert data["simulated_probability"] >= data["original_probability"]
+
