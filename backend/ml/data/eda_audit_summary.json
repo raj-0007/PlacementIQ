@@ -1,0 +1,59 @@
+{
+  "source_file": "student_placement_train.csv",
+  "original_rows": 8000,
+  "original_columns": 28,
+  "cleaned_rows": 8000,
+  "cleaned_columns": 28,
+  "exact_duplicates_removed": 0,
+  "target_column": "placed",
+  "target_distribution": {
+    "0": 6370,
+    "1": 1630
+  },
+  "target_missing_count": 0,
+  "target_values": [
+    "0",
+    "1"
+  ],
+  "features": {
+    "numeric": [
+      "age",
+      "cgpa",
+      "attendance_percentage",
+      "backlogs",
+      "coding_score",
+      "aptitude_score",
+      "communication_score",
+      "technical_score",
+      "projects_count",
+      "major_projects",
+      "internships_count",
+      "internship_months",
+      "certifications_count",
+      "hackathons_participated",
+      "hackathons_won",
+      "coding_platform_score",
+      "github_projects",
+      "linkedin_score",
+      "resume_score",
+      "soft_skills_score",
+      "leadership_score",
+      "extracurricular_score",
+      "training_hours",
+      "mock_interview_score"
+    ],
+    "categorical": [
+      "gender",
+      "preferred_domain"
+    ],
+    "id": [
+      "student_id"
+    ]
+  },
+  "pipeline_rules": [
+    "Original CSV left untouched.",
+    "Missing values preserved in cleaned CSV for leak-free pipeline imputation during cross-validation.",
+    "student_id excluded from feature space.",
+    "Stratified train/test splitting required due to target class distribution."
+  ]
+}

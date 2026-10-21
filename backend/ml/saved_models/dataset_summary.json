@@ -1,0 +1,162 @@
+{
+  "dataset_name": "college_placement.csv",
+  "total_records": 2966,
+  "placed_count": 1639,
+  "not_placed_count": 1327,
+  "placement_rate": 55.26,
+  "streams": [
+    "Civil",
+    "Computer Science",
+    "Electrical",
+    "Electronics And Communication",
+    "Information Technology",
+    "Mechanical"
+  ],
+  "genders": [
+    "Female",
+    "Male"
+  ],
+  "stream_breakdown": [
+    {
+      "stream": "Civil",
+      "total": 317,
+      "placed": 146,
+      "placement_rate": 46.1
+    },
+    {
+      "stream": "Computer Science",
+      "total": 776,
+      "placed": 452,
+      "placement_rate": 58.2
+    },
+    {
+      "stream": "Electrical",
+      "total": 334,
+      "placed": 181,
+      "placement_rate": 54.2
+    },
+    {
+      "stream": "Electronics And Communication",
+      "total": 424,
+      "placed": 251,
+      "placement_rate": 59.2
+    },
+    {
+      "stream": "Information Technology",
+      "total": 691,
+      "placed": 409,
+      "placement_rate": 59.2
+    },
+    {
+      "stream": "Mechanical",
+      "total": 424,
+      "placed": 200,
+      "placement_rate": 47.2
+    }
+  ],
+  "internships_breakdown": [
+    {
+      "internships": 0,
+      "total": 1331,
+      "placed": 654,
+      "placement_rate": 49.1
+    },
+    {
+      "internships": 1,
+      "total": 1234,
+      "placed": 662,
+      "placement_rate": 53.6
+    },
+    {
+      "internships": 2,
+      "total": 350,
+      "placed": 282,
+      "placement_rate": 80.6
+    },
+    {
+      "internships": 3,
+      "total": 51,
+      "placed": 41,
+      "placement_rate": 80.4
+    }
+  ],
+  "cgpa_distribution": [
+    {
+      "range": "5.0 - 5.9",
+      "total": 930,
+      "placed": 277,
+      "not_placed": 653,
+      "placement_rate": 29.8
+    },
+    {
+      "range": "6.0 - 6.9",
+      "total": 956,
+      "placed": 282,
+      "not_placed": 674,
+      "placement_rate": 29.5
+    },
+    {
+      "range": "7.0 - 7.9",
+      "total": 915,
+      "placed": 915,
+      "not_placed": 0,
+      "placement_rate": 100.0
+    },
+    {
+      "range": "8.0 - 8.9",
+      "total": 165,
+      "placed": 165,
+      "not_placed": 0,
+      "placement_rate": 100.0
+    }
+  ],
+  "numeric_stats": [
+    {
+      "feature": "Age",
+      "mean": 21.49,
+      "std": 1.32,
+      "min": 19.0,
+      "median": 21.0,
+      "max": 30.0
+    },
+    {
+      "feature": "Internships",
+      "mean": 0.7,
+      "std": 0.74,
+      "min": 0.0,
+      "median": 1.0,
+      "max": 3.0
+    },
+    {
+      "feature": "CGPA",
+      "mean": 7.07,
+      "std": 0.97,
+      "min": 5.0,
+      "median": 7.0,
+      "max": 9.0
+    },
+    {
+      "feature": "Hostel",
+      "mean": 0.27,
+      "std": 0.44,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 1.0
+    },
+    {
+      "feature": "HistoryOfBacklogs",
+      "mean": 0.19,
+      "std": 0.39,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 1.0
+    }
+  ],
+  "correlations": {
+    "Age": 0.047,
+    "Internships": 0.179,
+    "CGPA": 0.589,
+    "Hostel": -0.038,
+    "HistoryOfBacklogs": -0.022
+  }
+}

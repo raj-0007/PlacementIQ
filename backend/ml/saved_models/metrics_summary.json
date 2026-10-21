@@ -1,0 +1,753 @@
+{
+  "dataset_name": "college_placement.csv",
+  "total_records": 2966,
+  "train_samples": 2372,
+  "test_samples": 594,
+  "target_placed_rate": 0.5526,
+  "models": [
+    {
+      "model_id": "logistic_regression",
+      "display_name": "Logistic Regression",
+      "training_time_seconds": 0.09,
+      "accuracy": 0.7811,
+      "precision": 0.7878,
+      "recall": 0.8262,
+      "f1_score": 0.8065,
+      "roc_auc": 0.8869,
+      "cv_accuracy_mean": 0.7576,
+      "cv_accuracy_std": 0.0142,
+      "cv_f1_mean": 0.783,
+      "cv_f1_std": 0.0123,
+      "confusion_matrix": {
+        "true_negative": 193,
+        "false_positive": 73,
+        "false_negative": 57,
+        "true_positive": 271
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0457
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1524
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.2378
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3354
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3811
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.439
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.5122
+        },
+        {
+          "fpr": 0.0113,
+          "tpr": 0.5396
+        },
+        {
+          "fpr": 0.0263,
+          "tpr": 0.564
+        },
+        {
+          "fpr": 0.0338,
+          "tpr": 0.6098
+        },
+        {
+          "fpr": 0.0526,
+          "tpr": 0.625
+        },
+        {
+          "fpr": 0.0602,
+          "tpr": 0.6799
+        },
+        {
+          "fpr": 0.0677,
+          "tpr": 0.7134
+        },
+        {
+          "fpr": 0.094,
+          "tpr": 0.7378
+        },
+        {
+          "fpr": 0.1203,
+          "tpr": 0.753
+        },
+        {
+          "fpr": 0.1579,
+          "tpr": 0.7683
+        },
+        {
+          "fpr": 0.1805,
+          "tpr": 0.7866
+        },
+        {
+          "fpr": 0.2105,
+          "tpr": 0.8018
+        },
+        {
+          "fpr": 0.2368,
+          "tpr": 0.8171
+        },
+        {
+          "fpr": 0.2744,
+          "tpr": 0.8262
+        },
+        {
+          "fpr": 0.297,
+          "tpr": 0.8384
+        },
+        {
+          "fpr": 0.3459,
+          "tpr": 0.8506
+        },
+        {
+          "fpr": 0.3647,
+          "tpr": 0.8689
+        },
+        {
+          "fpr": 0.4098,
+          "tpr": 0.8902
+        },
+        {
+          "fpr": 0.4398,
+          "tpr": 0.9146
+        },
+        {
+          "fpr": 0.4925,
+          "tpr": 0.9207
+        },
+        {
+          "fpr": 0.5338,
+          "tpr": 0.936
+        },
+        {
+          "fpr": 0.5714,
+          "tpr": 0.9482
+        },
+        {
+          "fpr": 0.6278,
+          "tpr": 0.9604
+        },
+        {
+          "fpr": 0.6767,
+          "tpr": 0.9726
+        },
+        {
+          "fpr": 0.7406,
+          "tpr": 0.9817
+        },
+        {
+          "fpr": 0.8045,
+          "tpr": 0.9878
+        },
+        {
+          "fpr": 0.8759,
+          "tpr": 0.9939
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "CGPA",
+          "coefficient": 1.8269,
+          "abs_impact": 1.8269
+        },
+        {
+          "feature": "Internships",
+          "coefficient": 0.5328,
+          "abs_impact": 0.5328
+        },
+        {
+          "feature": "Age",
+          "coefficient": 0.4129,
+          "abs_impact": 0.4129
+        },
+        {
+          "feature": "Stream_Civil",
+          "coefficient": -0.377,
+          "abs_impact": 0.377
+        },
+        {
+          "feature": "Stream_Computer Science",
+          "coefficient": 0.3188,
+          "abs_impact": 0.3188
+        },
+        {
+          "feature": "Stream_Mechanical",
+          "coefficient": -0.2624,
+          "abs_impact": 0.2624
+        },
+        {
+          "feature": "Stream_Information Technology",
+          "coefficient": 0.2399,
+          "abs_impact": 0.2399
+        },
+        {
+          "feature": "Stream_Electronics And Communication",
+          "coefficient": 0.2149,
+          "abs_impact": 0.2149
+        }
+      ]
+    },
+    {
+      "model_id": "decision_tree",
+      "display_name": "Decision Tree Classifier",
+      "training_time_seconds": 0.05,
+      "accuracy": 0.8721,
+      "precision": 0.9565,
+      "recall": 0.8049,
+      "f1_score": 0.8742,
+      "roc_auc": 0.9203,
+      "cv_accuracy_mean": 0.8718,
+      "cv_accuracy_std": 0.0041,
+      "cv_f1_mean": 0.8744,
+      "cv_f1_std": 0.0042,
+      "confusion_matrix": {
+        "true_negative": 254,
+        "false_positive": 12,
+        "false_negative": 64,
+        "true_positive": 264
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.7226
+        },
+        {
+          "fpr": 0.0038,
+          "tpr": 0.7713
+        },
+        {
+          "fpr": 0.0113,
+          "tpr": 0.7896
+        },
+        {
+          "fpr": 0.0414,
+          "tpr": 0.8018
+        },
+        {
+          "fpr": 0.0451,
+          "tpr": 0.8049
+        },
+        {
+          "fpr": 0.0752,
+          "tpr": 0.8232
+        },
+        {
+          "fpr": 0.0902,
+          "tpr": 0.8262
+        },
+        {
+          "fpr": 0.0977,
+          "tpr": 0.8354
+        },
+        {
+          "fpr": 0.7143,
+          "tpr": 0.9756
+        },
+        {
+          "fpr": 0.7218,
+          "tpr": 0.9787
+        },
+        {
+          "fpr": 0.7293,
+          "tpr": 0.9787
+        },
+        {
+          "fpr": 0.8083,
+          "tpr": 0.9909
+        },
+        {
+          "fpr": 0.9286,
+          "tpr": 0.997
+        },
+        {
+          "fpr": 0.985,
+          "tpr": 0.997
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "CGPA",
+          "importance": 0.7564
+        },
+        {
+          "feature": "Age",
+          "importance": 0.1103
+        },
+        {
+          "feature": "Internships",
+          "importance": 0.1016
+        },
+        {
+          "feature": "HistoryOfBacklogs",
+          "importance": 0.0155
+        },
+        {
+          "feature": "Stream_Civil",
+          "importance": 0.0072
+        },
+        {
+          "feature": "Stream_Mechanical",
+          "importance": 0.0072
+        },
+        {
+          "feature": "Hostel",
+          "importance": 0.0018
+        },
+        {
+          "feature": "Stream_Electronics And Communication",
+          "importance": 0.0
+        }
+      ]
+    },
+    {
+      "model_id": "random_forest",
+      "display_name": "Random Forest Classifier",
+      "training_time_seconds": 2.94,
+      "accuracy": 0.8636,
+      "precision": 0.9103,
+      "recall": 0.8354,
+      "f1_score": 0.8712,
+      "roc_auc": 0.9213,
+      "cv_accuracy_mean": 0.8697,
+      "cv_accuracy_std": 0.0033,
+      "cv_f1_mean": 0.8742,
+      "cv_f1_std": 0.0041,
+      "confusion_matrix": {
+        "true_negative": 239,
+        "false_positive": 27,
+        "false_negative": 54,
+        "true_positive": 274
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0518
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1006
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1677
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.2287
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.2957
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.3689
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.436
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.4878
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.5305
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.5732
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.6494
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.7073
+        },
+        {
+          "fpr": 0.0038,
+          "tpr": 0.7348
+        },
+        {
+          "fpr": 0.0226,
+          "tpr": 0.7622
+        },
+        {
+          "fpr": 0.0451,
+          "tpr": 0.8018
+        },
+        {
+          "fpr": 0.0752,
+          "tpr": 0.8171
+        },
+        {
+          "fpr": 0.1053,
+          "tpr": 0.8354
+        },
+        {
+          "fpr": 0.1579,
+          "tpr": 0.8506
+        },
+        {
+          "fpr": 0.2368,
+          "tpr": 0.8659
+        },
+        {
+          "fpr": 0.2932,
+          "tpr": 0.878
+        },
+        {
+          "fpr": 0.3346,
+          "tpr": 0.8841
+        },
+        {
+          "fpr": 0.3534,
+          "tpr": 0.9024
+        },
+        {
+          "fpr": 0.3947,
+          "tpr": 0.9146
+        },
+        {
+          "fpr": 0.4286,
+          "tpr": 0.9207
+        },
+        {
+          "fpr": 0.4962,
+          "tpr": 0.9299
+        },
+        {
+          "fpr": 0.5301,
+          "tpr": 0.939
+        },
+        {
+          "fpr": 0.5639,
+          "tpr": 0.9482
+        },
+        {
+          "fpr": 0.6391,
+          "tpr": 0.9604
+        },
+        {
+          "fpr": 0.6579,
+          "tpr": 0.9726
+        },
+        {
+          "fpr": 0.703,
+          "tpr": 0.9756
+        },
+        {
+          "fpr": 0.7895,
+          "tpr": 0.9817
+        },
+        {
+          "fpr": 0.8459,
+          "tpr": 0.9909
+        },
+        {
+          "fpr": 0.8947,
+          "tpr": 1.0
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "CGPA",
+          "importance": 0.7822
+        },
+        {
+          "feature": "Internships",
+          "importance": 0.0937
+        },
+        {
+          "feature": "Age",
+          "importance": 0.0688
+        },
+        {
+          "feature": "HistoryOfBacklogs",
+          "importance": 0.01
+        },
+        {
+          "feature": "Stream_Civil",
+          "importance": 0.0081
+        },
+        {
+          "feature": "Stream_Mechanical",
+          "importance": 0.008
+        },
+        {
+          "feature": "Hostel",
+          "importance": 0.0074
+        },
+        {
+          "feature": "Stream_Computer Science",
+          "importance": 0.0069
+        }
+      ]
+    },
+    {
+      "model_id": "svm",
+      "display_name": "Support Vector Machine (SVM)",
+      "training_time_seconds": 6.22,
+      "accuracy": 0.8485,
+      "precision": 0.8766,
+      "recall": 0.8445,
+      "f1_score": 0.8602,
+      "roc_auc": 0.9256,
+      "cv_accuracy_mean": 0.8643,
+      "cv_accuracy_std": 0.0102,
+      "cv_f1_mean": 0.8712,
+      "cv_f1_std": 0.0104,
+      "confusion_matrix": {
+        "true_negative": 227,
+        "false_positive": 39,
+        "false_negative": 51,
+        "true_positive": 277
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0335
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0701
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1524
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.2195
+        },
+        {
+          "fpr": 0.0038,
+          "tpr": 0.2683
+        },
+        {
+          "fpr": 0.0038,
+          "tpr": 0.3567
+        },
+        {
+          "fpr": 0.0038,
+          "tpr": 0.4116
+        },
+        {
+          "fpr": 0.0075,
+          "tpr": 0.4848
+        },
+        {
+          "fpr": 0.0075,
+          "tpr": 0.5213
+        },
+        {
+          "fpr": 0.0075,
+          "tpr": 0.5854
+        },
+        {
+          "fpr": 0.0075,
+          "tpr": 0.6768
+        },
+        {
+          "fpr": 0.015,
+          "tpr": 0.7348
+        },
+        {
+          "fpr": 0.0226,
+          "tpr": 0.7744
+        },
+        {
+          "fpr": 0.0414,
+          "tpr": 0.7866
+        },
+        {
+          "fpr": 0.0564,
+          "tpr": 0.811
+        },
+        {
+          "fpr": 0.0789,
+          "tpr": 0.8201
+        },
+        {
+          "fpr": 0.1015,
+          "tpr": 0.8384
+        },
+        {
+          "fpr": 0.1466,
+          "tpr": 0.8445
+        },
+        {
+          "fpr": 0.1729,
+          "tpr": 0.8598
+        },
+        {
+          "fpr": 0.1917,
+          "tpr": 0.872
+        },
+        {
+          "fpr": 0.2293,
+          "tpr": 0.8841
+        },
+        {
+          "fpr": 0.282,
+          "tpr": 0.9116
+        },
+        {
+          "fpr": 0.3421,
+          "tpr": 0.9146
+        },
+        {
+          "fpr": 0.3872,
+          "tpr": 0.9299
+        },
+        {
+          "fpr": 0.4549,
+          "tpr": 0.939
+        },
+        {
+          "fpr": 0.5263,
+          "tpr": 0.9512
+        },
+        {
+          "fpr": 0.5789,
+          "tpr": 0.9604
+        },
+        {
+          "fpr": 0.6353,
+          "tpr": 0.9695
+        },
+        {
+          "fpr": 0.7293,
+          "tpr": 0.9756
+        },
+        {
+          "fpr": 0.7782,
+          "tpr": 0.9848
+        },
+        {
+          "fpr": 0.8346,
+          "tpr": 0.9878
+        },
+        {
+          "fpr": 0.8872,
+          "tpr": 0.9909
+        },
+        {
+          "fpr": 0.9474,
+          "tpr": 0.9939
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "CGPA",
+          "importance": 0.3084
+        },
+        {
+          "feature": "Internships",
+          "importance": 0.0545
+        },
+        {
+          "feature": "Age",
+          "importance": 0.0219
+        },
+        {
+          "feature": "Stream_Electrical",
+          "importance": 0.0047
+        },
+        {
+          "feature": "Stream_Information Technology",
+          "importance": 0.0017
+        },
+        {
+          "feature": "HistoryOfBacklogs",
+          "importance": 0.0007
+        },
+        {
+          "feature": "Stream_Civil",
+          "importance": 0.0003
+        },
+        {
+          "feature": "Stream_Mechanical",
+          "importance": 0.0
+        }
+      ]
+    }
+  ],
+  "features": {
+    "numeric": [
+      "Age",
+      "Internships",
+      "CGPA",
+      "Hostel",
+      "HistoryOfBacklogs"
+    ],
+    "categorical": [
+      "Gender",
+      "Stream"
+    ],
+    "transformed": [
+      "Age",
+      "Internships",
+      "CGPA",
+      "Hostel",
+      "HistoryOfBacklogs",
+      "Gender_Female",
+      "Gender_Male",
+      "Stream_Civil",
+      "Stream_Computer Science",
+      "Stream_Electrical",
+      "Stream_Electronics And Communication",
+      "Stream_Information Technology",
+      "Stream_Mechanical"
+    ]
+  }
+}
