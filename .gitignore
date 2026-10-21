@@ -1,0 +1,90 @@
+# ====================================================================
+# PlacementIQ - Git Ignore Configuration
+# ====================================================================
+
+# --- Security & Credentials (CRITICAL - NEVER COMMIT) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.id_rsa
+*.id_ecdsa
+*.id_ed25519
+credentials.json
+token.json
+client_secrets*.json
+secrets/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- IDE & Editors ---
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# --- Node.js & Web Frameworks ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build Outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.turbo/
+.cache/
+.parcel-cache/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Logs & Databases ---
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
