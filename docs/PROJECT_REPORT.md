@@ -1,7 +1,7 @@
 # PlacementIQ: An Intermediate-Level Student Placement Analytics and Predictive Modeling Platform Using Supervised Machine Learning
 
 **Academic Project Report (15-Mark Mini-Project Evaluation)**  
-**Author**: Lead Full-Stack Developer & Machine Learning Engineer  
+**Author**: TEAM_WORK  
 **Institution**: Department of Computer Science & Engineering  
 **Repository**: [https://github.com/raj-0007/PlacementIQ](https://github.com/raj-0007/PlacementIQ)  
 **Academic Year**: 2025–2026  
