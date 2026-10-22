@@ -1,5 +1,8 @@
 # PlacementIQ 🎓📊
 
+site link: https://placement-iq-lilac.vercel.app/
+
+
 > **Intermediate-Level Student Placement Analytics & Predictive Intelligence Platform**  
 > *Developed for College Mini-Project Evaluation (15 Marks)*  
 > **Repository**: [https://github.com/raj-0007/PlacementIQ](https://github.com/raj-0007/PlacementIQ)
